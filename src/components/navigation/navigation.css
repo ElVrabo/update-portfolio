@@ -1,0 +1,21 @@
+.name{
+    text-decoration: none;
+    font: 24px "DM Sans", sans-serif ;
+    color: #f4f2ee;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.links{
+color: #f4f2ee;
+font: 20px "DM Sans", sans-serif ;
+text-decoration: none;
+}

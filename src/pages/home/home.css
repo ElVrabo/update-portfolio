@@ -1,0 +1,28 @@
+.trail-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .animated-letter {
+   font: 28.8px "DM Sans", sans-serif ;
+    margin: 0 2px;
+    color: #f4f2ee;
+    flex-wrap: wrap;
+  }
+  .logo{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+  }
+  .logo img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
