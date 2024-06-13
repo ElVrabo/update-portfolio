@@ -1,0 +1,25 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    
+}
+.projects h1{
+    color: #f4f2ee;
+}
+.card-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+@media (max-width: 600px) {
+.card-projects{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    /* width: 100%; */
+}
+}

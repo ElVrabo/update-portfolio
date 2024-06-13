@@ -1,7 +1,12 @@
 import { useState } from "react"
 import "./navigation.css"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
+import iconGitHub from "./../../assets/images/github.png"
+import iconLinkedin from "./../../assets/images/linkedin.png"
+import iconFacebook from "./../../assets/images/facebook.png"
 export default function Navigation(){
+
+    const navigate = useNavigate()
  
     const [items,setItems] = useState([
         
@@ -23,7 +28,15 @@ export default function Navigation(){
                 ))}
             </div>
             <div className="social-media">
-                <Link className="links">Facebook</Link>
+                <img src={iconGitHub} alt="icono github" onClick={()=>{
+                    window.open('https://github.com/ElVrabo')
+                }} />
+                <img src={iconLinkedin} alt="icono linkedin" onClick={()=>{
+                    window.open('https://www.linkedin.com/in/brandon-mu%C3%B1oz-mazariegos-a1b77226a/')
+                }} />
+                <img src={iconFacebook} alt="icono facebook" onClick={()=>{
+                    window.open('https://www.facebook.com/profile.php?id=100032566212527')
+                }} />
             </div>
         </nav>
         </>

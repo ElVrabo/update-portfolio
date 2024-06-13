@@ -1,5 +1,4 @@
 import "./home.css"
-import { useState,useEffect } from "react";
 import Navigation from "../../components/navigation/Navigation";
 import { useSpring, animated, useTrail } from '@react-spring/web';
 import desktop from "../../assets/images/imagen-escritorio.jpg"
